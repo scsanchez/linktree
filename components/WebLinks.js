@@ -59,6 +59,12 @@ const Links = () => {
     return el.type === "nft" && el.on
   });
 
+
+  // Get data for download section
+  const downloads = allLinks.filter((el) => {
+    return el.type === "download" && el.on
+  });
+
   // Get data for other section
   const others = allLinks.filter((el) => {
     return el.type === "other" && el.on
@@ -146,7 +152,7 @@ const Links = () => {
               {
                 nfts.length > 0 ?
                     <LinkSection>
-                      <h3>{nfts[0].type}s</h3>
+                    {/*   <h3>{nfts[0].type}s</h3> */}
                       {
                         nfts.map((i) => {
                           return (
@@ -162,6 +168,28 @@ const Links = () => {
                     : ''
               }
               {/* End NFT Section */}
+
+
+              {/* Download Section */}
+              {
+                downloads.length > 0 ?
+                    <LinkSection>
+                      <h3>Downloads</h3>
+                      {
+                        downloads.map((i) => {
+                          return (
+                              <a href={i.url} key={i.title} download>
+                                <LinkBox>
+                                  <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
+                                </LinkBox>
+                              </a>
+                          )
+                        })
+                      }
+                    </LinkSection>
+                    : ''
+              }
+              {/* End Download Section */}
 
               {/* Other Section */}
               {

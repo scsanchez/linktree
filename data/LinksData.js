@@ -6,14 +6,14 @@ const webLinks = [
         url: 'https://twitter.com/realvjy',
         type: 'social',
         icon: '/twitter.svg',
-        on: true
+        on: false
     },
     {
         title: 'Instagram',
         url: 'https://instagram.com/realvjy',
         type: 'social',
         icon: '/insta.svg',
-        on: true
+        on: false
     },
     {
         title: 'Dribbble',
@@ -30,9 +30,9 @@ const webLinks = [
         on: false
     },
     {
-        title: 'Github',
-        url: 'https://github.com/realvjy',
-        type: 'social',
+        title: 'GitHub',
+        url: 'https://github.com/scsanchez',
+        type: 'nft',
         icon: '/github.svg',
         on: true
     },
@@ -48,6 +48,13 @@ const webLinks = [
         url: 'https://figma.com/@realvjy',
         type: 'social',
         icon: '/figma.svg',
+        on: false
+    },
+        {
+        title: 'Email',
+        url: 'mailto:hola@scarrascal.com',
+        type: 'nft',
+        icon: '/email.svg',
         on: true
     },
     {
@@ -58,18 +65,18 @@ const webLinks = [
         on: false
     },
     {
-        title: 'Linkedin',
-        url: 'https://www.linkedin.com/in/realvjy/',
-        type: 'social',
+        title: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/sergio-cs/',
+        type: 'nft',
         icon: '/linkedin.svg',
-        on: false
+        on: true
     },
     {
         title: 'Mastodon',
         url: 'https://mastodon.online/@realvjy',
         type: 'social',
         icon: '/mastodon.svg',
-        on: true
+        on: false
     },
     {
         title: 'Hive Social',
@@ -106,15 +113,22 @@ const webLinks = [
         icon: '/opensea.svg',
         on: false
     },
-    // Install section
     {
-        title: 'Use this template',
-        url: 'https://github.com/realvjy/nxt-lnk/generate',
-        type: 'install',
-        icon: '/use.png',
+        title: 'CV SPANISH',
+        url: '/CV_BIO.pdf',
+        type: 'download',
+        icon: '/cv.svg',
         on: true
     },
-    {
+/*         {
+        title: 'CV ENGLISH',
+        url: '/CV_BIO.pdf',
+        type: 'download',
+        icon: '/cv.svg',
+        on: true
+    }, */
+    // Install section
+  /*   {
         title: 'Deploy on Vercel',
         url: 'https://vercel.com/import/git?s=https://github.com/realvjy/nxt-lnk',
         type: 'install',
@@ -127,8 +141,8 @@ const webLinks = [
         type: 'install',
         icon: '/doc.png',
         on: true
-    },
-    {
+    }, */
+/*     {
         title: 'Github',
         url: 'https://github.com/realvjy/nxt-lnk',
         type: 'install',
@@ -158,7 +172,7 @@ const webLinks = [
         type: 'other',
         icon: '/vjy.png',
         on: true
-    },
+    } */
 ];
 
 export default webLinks;

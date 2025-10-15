@@ -2,7 +2,7 @@ export default {
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        title: 'next lnks by realvjy',
+        title: 'LINKTREE - Sergio Carrascal',
         url: 'https://vjy.me',
         description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
         locale: 'en_EN',
