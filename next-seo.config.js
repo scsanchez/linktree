@@ -1,24 +1,23 @@
 export default {
     openGraph: {
         type: 'website',
-        locale: 'en_IE',
-        title: 'LINKTREE - Sergio Carrascal',
-        url: 'https://vjy.me',
-        description: 'Custom bio links for creatives who love coding. Made this first to use for my own weblinks vjy.me/lnk.',
-        locale: 'en_EN',
-        keywords: 'designer, product designer, illustrator, indian designer, vijay verma, realvjy, illlustrations, indian illustrator, ui designer india, sushi design system, zomato designer, 3dicons, uiprint, vijay realvjy, indian ui designer, design india, overlayz, nft art',
+        locale: 'es_ES',
+        title: 'Sergio Carrascal Sánchez | Bioinformática y Filosofía',
+        url: 'https://linktree.scarrascal.com',
+        description: 'Espacio personal de Sergio Carrascal: bioinformática, filosofía y proyectos de investigación. Enlaces a trabajos, redes y publicaciones.',
+        keywords: 'bioinformática, biología computacional, ciencia de datos, filosofía, pipelines, análisis genómico, investigación, Sergio Carrascal',
         images: [
             {
                 width: 1200,
                 height: 630,
-                url: `https://vjy.me/preview.jpg`,
+                url: '/preview.png',
             },
         ],
-        site_name: 'realvjy',
+        site_name: 'Sergio Carrascal',
     },
-    twitter: {
-        handle: '@realvjy',
-        site: 'vjy.me',
+    /* twitter: {
+        handle: '@scarrascal',
+        site: 'qr.scarrascal.com',
         cardType: 'summary_large_image',
-    },
+    }, */
 };

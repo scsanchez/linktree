@@ -1,7 +1,7 @@
 // date: 1 Aug, 2022
 const bioData = [
     {
-        name: 'Sergio Carrascal',
+        name: 'Sergio Carrascal Sánchez',
         username: 'hola@scarrascal.com',
         url: 'mailto:hola@scarrascal.com',
         titleImg: false,
