@@ -7,7 +7,7 @@ const bioData = [
         titleImg: false,
         avatar: '/avatar1.png',
         nftAvatar: true,
-        description: 'Bioinformatician | Data Scientist | MSc in Bioinformatics and Computational Biology | Philosophy Enthusiast   ',   
+        description: 'Biologist | Bioinformatician | Data Scientist | MSc in Bioinformatics and Computational Biology | Philosophy Student',
         descShow: true,
         subdesc: ' ',
         subdescShow: true,

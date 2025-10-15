@@ -113,6 +113,13 @@ const webLinks = [
         icon: '/opensea.svg',
         on: false
     },
+        {
+        title: 'Website (under construction)',
+        url: 'https://bio.scarrascal.com',
+        type: 'nft',
+        icon: '/web.svg',
+        on: true
+    },
     {
         title: 'CV SPANISH',
         url: '/CV_BIO.pdf',
