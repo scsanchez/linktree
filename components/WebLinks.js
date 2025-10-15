@@ -54,9 +54,15 @@ const Links = () => {
     return el.type === "install" && el.on
   });
 
+
   // Get data for nfts
   const nfts = allLinks.filter((el) => {
     return el.type === "nft" && el.on
+  });
+
+  // Get data for projects section
+  const projects = allLinks.filter((el) => {
+    return el.type === "project" && el.on
   });
 
 
@@ -148,11 +154,12 @@ const Links = () => {
               }
               {/* End Install Section */}
 
+
               {/* NFT Section */}
               {
                 nfts.length > 0 ?
                     <LinkSection>
-                    {/*   <h3>{nfts[0].type}s</h3> */}
+                    {/*   <h3>NFTs</h3> */}
                       {
                         nfts.map((i) => {
                           return (
@@ -168,6 +175,27 @@ const Links = () => {
                     : ''
               }
               {/* End NFT Section */}
+
+              {/* Projects Section */}
+              {
+                projects.length > 0 ?
+                    <LinkSection>
+                      <h3>Projects</h3>
+                      {
+                        projects.map((i) => {
+                          return (
+                              <a href={i.url} key={i.title} target="_blank" rel="noreferrer">
+                                <LinkBox>
+                                  <LinkTitle><img src={i.icon} style={{ filter: 'var(--img)' }} /> {i.title}</LinkTitle> <NewUp />
+                                </LinkBox>
+                              </a>
+                          )
+                        })
+                      }
+                    </LinkSection>
+                    : ''
+              }
+              {/* End Projects Section */}
 
 
               {/* Download Section */}

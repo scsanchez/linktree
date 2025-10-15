@@ -9,7 +9,7 @@ const bioData = [
         nftAvatar: true,
         description: 'Biologist | Bioinformatician | Data Scientist | MSc in Bioinformatics and Computational Biology | Philosophy Student',
         descShow: true,
-        subdesc: ' ',
+        subdesc: ' Passionate about data-driven biology and computational thinking',
         subdescShow: true,
         newProductUrl: 'https://3dicons.co',
         newProduct: false,
