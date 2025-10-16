@@ -129,14 +129,14 @@ const webLinks = [
   },
   {
     title: "CV SPANISH",
-    url: "/CV_BIO.pdf",
+    url: "/CV_ES.pdf",
     type: "download",
     icon: "/cv.svg",
     on: true,
   },
   {
     title: "CV ENGLISH",
-    url: "/CV_BIO.pdf",
+    url: "/CV_EN.pdf",
     type: "download",
     icon: "/cv.svg",
     on: true,
